@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+    <!--Hero sec-->
+    <div id="home" class="hero">
+        <nav>
+            <h2 class="logo">Résu<span>mé</span></h2>
+            <ul id="mySidenav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <a href="#" class="show btn">Contact Us</a>
+                <span onclick="closeNav()"><i class="fa-solid fa-xmark"></i></span>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openNav()"></i>
+            <a href="#" class="btn">Contact Us</a>
+        </nav>
+
+        <div class="content">
+            <h4 class="header" style="animation: fade-up 0.5s">Hello, my name is</h4>
+            <h1 style="animation: fade-up 0.5s">Khushal<span> Khandelwal</span></h1>
+            <h3 style="animation: fade-up 0.5s">I'am a <span class="auto-type"></span></h3>
+            <div class="newslatter" style="animation: fade-up 0.5s">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter yours Email">
+                    <input type="submit" name="submit" value="Lets Start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--About Sec-->
+    <section id="about" class="about">
+        <div class="main">
+            <img src="./img/th.jpg" class="slide-in from-left">
+            <div class="about-text slide-in from-right">
+                <h2>About Me</h2>
+                <h5><span>Computer Engineering</span> Student</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur unde impedit
+                    molestiae, nesciunt totam animi in a non labore, earum minima sit fugit libero at maxime, expedita
+                    omnis quaerat.
+                </p>
+                <button>Let's Start</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Service/Projects sec-->
+
+    <!-- <div class="service">
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web development</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sint et culpa eligendi iusto
+                        corporis deleniti unde velit delectus dolorem!</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Softwares</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sint et culpa eligendi iusto
+                        corporis deleniti unde velit delectus dolorem!</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>App development</h5>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sint et culpa eligendi iusto
+                        corporis deleniti unde velit delectus dolorem!</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!--contact me-->
+    <div class="contact-me">
+        <p class="fade-uup">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, beatae?</p>
+        <a class="button-two fade-uup" href="https://drive.google.com/file/d/1JPpHJrS3I6T5C02tZbgLhu4Is2riGUNa/view?usp=sharing" download="">View CV</a>
+    </div>
+
+    <!--footer sec-->
+    <footer>
+        <div class="fade-in">
+            <p>Khushal Khandelwal</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure molestias aliquam sunt? Quidem, et?.
+            </p>
+            <div class="social">
+                <a href="https://discordapp.com/users/1038093394477584516" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://github.com/khushalk-hue" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/khushal-khandelwal" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p class="end">CopyRight <i class="fa-regular fa-copyright"></i> KhushalK</p>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="/y2mate.com - SDM Nation  Ты и Я Remix.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+
+    <!-- Javascript File -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
